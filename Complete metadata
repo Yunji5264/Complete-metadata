@@ -1,0 +1,17 @@
+Dataset = {
+        codeDataset = 36
+        titleDataset = National Register of Condominiums
+        url = https://www.data.gouv.fr/fr/datasets/ registre-national-dimmatriculation-
+        des-coproprietes/
+        updateFrequency = Quarter
+        typeDataset = csv
+        themeDataset = Domestic environment
+        parameters = {{EPCI, Commune, [long, lat], Code Officiel Commune, Code Officiel Arrondissement Commune, Code Officiel EPCI, Code Officiel Département, Code Officiel Région}, {Date du règlement de copropriété}}
+        complementaryInfo = {Numéro d'immatriculation, Type de syndic : bénévole / professionnel / non connu, Identification du représentant légal  (raison sociale et le numéro SIRET du syndic professionnel ou Civilité/prénom/ nom du syndic bénévole ou coopératif), Siret représentant légal (si existe), Code APE, Commune du représentant légal, Mandat en cours dans la copropriété, Nom d’usage de la copropriété, Adresse de référence, Numéro et Voie (adresse de référence), Code postal (adresse de référence), Commune (adresse de référence), Adresse complémentaire 1, Adresse complémentaire 2, Adresse complémentaire 3, Nombre d'adresses complémentaires, Résidence service, Syndicat coopératif, Syndicat principal ou syndicat secondaire, Si secondaire, n° d’immatriculation du principal, Référence Cadastrale 1, Code INSEE commune 1, Préfixe 1, Section 1, Numéro parcelle 1, Référence Cadastrale 2, Code INSEE commune 2, Préfixe 2, Section 2, Numéro parcelle 2, Référence Cadastrale 3, Code INSEE commune 3, Préfixe 3, Section 3, Numéro parcelle 3, nom_qp, code_qp, Copro dans ACV, Copro dans PVD, Copro aidée, Nom Officiel Commune, Commune (adresse de référence), Nom Officiel EPCI, Nom Officiel Département, Nom Officiel Région, Période de construction [Building construction quality]}
+        measures = {Nombre d’ASL auxquelles est rattaché le syndicat de copropriétaires[Crowding], Nombre d’AFUL auxquelles est rattaché le syndicat de copropriétaires[Crowding], Nombre d’Unions de syndicats auxquelles est rattaché le syndicat de copropriétaires[Available equipment], Nombre total de lots[Available space], Nombre total de lots à usage d’habitation, de bureaux ou de commerces[Available space], Nombre de lots à usage d’habitation[Available space], Nombre de lots de stationnement[Available equipment], Nombre d'arrêtés relevant du code de la santé publique en cours[Cleanliness], Nombre d'arrêtés de péril sur les parties communes en cours[Avalable space], Nombre d'arrêtés sur les équipements communs en cours[Avalable equipement], Nombre de parcelles cadastrales[Available space]}
+        spatioGranularityMin = géopoint
+        temporalGranularityMin = date
+        spatioScope = {Region: {'11', '3', '32', '93', '76', '52', '84', '2', '94', '978', '4', '53', '6', '977', '24', '1', '75', '28', '44', '27'}}
+        temporalScope = {startPoint = "1900-01-01", endPoint = "2021-12-31"}
+        hierarchies  = {hSpacial1{<[long, lat], 0>, <Commune, 1>, <Département, 2>, <Région, 3>}, hSpacial2{<[long, lat], 0>, <Commune, 1>, <EPCI, 2>}, hSpatial3{<[long, lat], 0>, <Code Officiel Arrondissement Commune, 1>, <Code Officiel Commune, 2>, <Code Officiel Département, 3>, <Code Officiel Région, 4>}, hSpatial4{<[long, lat], 0>, <Code Officiel Arrondissement Commune, 1>, <Code Officiel Commune, 2>, <Code Officiel EPCI, 3>}, hTemporel{<Date du règlement de copropriété, 0>, <Mois du règlement de copropriété, 1>, <Année du règlement de copropriété, 2>}}
+    }
